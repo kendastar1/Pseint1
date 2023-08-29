@@ -17,7 +17,7 @@ Algoritmo Productos
 		Escribir "No es el precio de la papa, en realidad el precio de la papa es ", Producto_1Arroz;
 	Fin Si
 	Escribir "Lentejas"
-	Si Producto_1Arroz = 3000 Entonces
+	Si Producto_3lenteja = 3000 Entonces
 		Escribir "ES correcto el precio de la lentejas"
 	SiNo
 		Escribir "No es el precio de la lenteja, en realidad el precio de la lenteja es ", Producto_2Papa;
