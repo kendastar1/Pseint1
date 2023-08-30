@@ -34,11 +34,10 @@ Algoritmo decisiones_que_tomo_para_hacer_almuerzo
 	Escribir "decidi ir a mi casa y preparar el almuerzo abri mi nevera y me encontre con dos ingredientes que son mayonessa o salsa de tomate y decidi tomar"
 	Escribir "digite si quieres mayonnesa"
 	Leer mayonessa
-	Escribir "si no salsa de tomate"
-	Leer salsaT
 	Si mayonessa > salsaT Entonces
 		Escribir "mi desicion es ",mayonessa
 	SiNo
 		Escribir "mi desicion es", salsaT
 	Fin Si
+	Escribir "decido por ultimo hechar la mayonnesa y listo quedo listas las pastas para servirle a mi madre y hermana"
 FinAlgoritmo
