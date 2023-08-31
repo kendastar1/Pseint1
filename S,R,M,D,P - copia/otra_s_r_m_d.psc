@@ -120,14 +120,14 @@ Algoritmo otra_s_r_m_d
 		Escribir "no es divisible de 6"
 	Fin Si
 	
-	Definir num7 Como Entero
-	Definir num8,respuesta3 Como Entero
+	Definir num7,num8 Como entero
+	Definir respuesta3 Como entero
 	Escribir "Resta"
 	Escribir "Escribir el primer numero"
 	Leer num7
 	Escribir "Escribir el segundo numero"
 	Leer num8
-	respuesta3<-num5 * num6
+	respuesta3<-num7 / num8
 	Escribir "El Resultado de la Resta es ", respuesta3;
 	Si respuesta3 > 0  Entonces
 		Escribir "es positivo"
