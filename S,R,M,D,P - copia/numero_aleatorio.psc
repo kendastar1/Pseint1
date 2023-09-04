@@ -2,12 +2,11 @@ Algoritmo numero_aleatorio
 	Definir n Como Entero
 	Escribir "numero"
 	leer n
-	Para i = 1  Hasta n  Con Paso 1 Hacer
-		Escribir (i)
-		Si (i mod 2 = 0) Entonces
-			Escribir "es par", i
-		SiNo
-		Fin Si
+	Para a = 0  Hasta n  Con Paso 1 Hacer
+		Escribir a 
+	Fin Para
+	Para a = 2  Hasta n  Con Paso 2 Hacer
+		Escribir "los numeros pares son ",a 
 	Fin Para
 	
 	
