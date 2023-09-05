@@ -13,15 +13,15 @@ Algoritmo empleados_jubilan
 		Si años = 10 Entonces
 			Escribir"si se jubila"
 		SiNo
-			Si( años >= 11) y ( edad >= 40) Entonces
+			Si( años = 11) y (( edad >= 40)) y (( edad <= 45)) Entonces
 				resultado<-sueldo+(sueldo*0.3);
 				Escribir "si se jubila con ",resultado;
 			SiNo
-				Si ((años >= 12) y( años <= 17))y( 45 >= edad) Entonces 
+				Si ((años >= 12) y( años <= 17))y(( edad >= 45))y((edad <= 60)) Entonces 
 					resultado<-sueldo+(sueldo*0.35);
 					Escribir "si se jubila con",resultado;
 				SiNo
-					Si ((años >= 17)y(años <= 24)) y (60 >= edad) Entonces
+					Si ((años >= 17)y(años <= 24)) y ((edad >= 60))y(( edad <= 70)) Entonces
 						resultado<-sueldo+(sueldo*0.4);
 						Escribir "si se jubila",resultado;
 					SiNo
@@ -29,12 +29,9 @@ Algoritmo empleados_jubilan
 							resultado<-sueldo+(sueldo*0.6);
 							Escribir "si se jubila",resultado;
 						SiNo
-							Si años < 10 Entonces
 								resultado<-años*sueldo;
 								Escribir "la liquidacion es ",resultado;
 								
-							SiNo
-							Fin Si
 						Fin Si
 					Fin Si
 				Fin Si
